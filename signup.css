@@ -1,0 +1,79 @@
+body {
+background: linear-gradient(135deg, #74ebd5, #acb6e5);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.signup-box {
+background: white;
+padding: 40px 30px;
+border-radius: 20px;
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+width: 350px;
+text-align: center;
+transition: transform 0.3s ease;
+}
+
+.signup-box:hover {
+transform: scale(1.02);
+}
+
+.signup-box h1 {
+margin-bottom: 25px;
+font-size: 26px;
+color: #4f46e5;
+}
+
+.brand {
+color: #16a085;
+font-weight: bold;
+}
+
+input,
+select {
+width: 100%;
+padding: 12px;
+margin: 10px 0;
+border-radius: 10px;
+border: 1px solid #ccc;
+font-size: 15px;
+outline: none;
+}
+
+input:focus,
+select:focus {
+border-color: #6366f1;
+box-shadow: 0 0 5px #6366f1;
+}
+
+button {
+width: 100%;
+padding: 12px;
+background-color: #6366f1;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+button:hover {
+background-color: #4f46e5;
+}
+
+.login-link {
+margin-top: 15px;
+font-size: 14px;
+}
+
+.login-link a {
+color: #16a085;
+text-decoration: none;
+font-weight: bold;
+}

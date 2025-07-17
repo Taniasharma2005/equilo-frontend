@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Equilo - Signup</title>
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class="signup-box">
+    <h1>📚 Signup for <span class="brand">Equilo</span></h1>
+    
+    <input type="email" id="signupEmail" placeholder="📧 Enter your Email" />
+    <input type="password" id="signupPassword" placeholder="🔐 Create a Password" />
+    
+    <label for="disability">♿ Select Disability Type:</label>
+    <select id="disability">
+    <option value="normal">🧍 Normal</option>
+    <option value="blind">🧑‍🦯 Blind</option>
+    <option value="deaf">🧏 Deaf</option>
+    <option value="mute">🤐 Mute</option>
+    <option value="blind,deaf">🧑‍🦯 + 🧏 Blind + Deaf</option>
+    <option value="blind,mute">🧑‍🦯 + 🤐 Blind + Mute</option>
+    <option value="deaf,mute">🧏 + 🤐 Deaf + Mute</option>
+    <option value="blind,deaf,mute">🧑‍🦯 + 🧏 + 🤐 All</option>
+    </select>
+    
+    <button onclick="signup()">✨ Signup</button>
+    <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+</div>
+
+<script src="signup.js"></script>
+</body>
+</html>
